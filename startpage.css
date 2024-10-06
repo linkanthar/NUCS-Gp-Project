@@ -16,10 +16,6 @@ body{
 
 }
 
-img{
-    color: rgba(225,225,225);
-}
-
 .container{
     margin: 0;
     padding: 0;
@@ -40,7 +36,7 @@ img{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .typed-cursor {
@@ -49,30 +45,42 @@ img{
   }
 .multi-tsk {    
     display: inline-block;
-    font-weight: 600;
+    font-weight:600;
     font-size: 4rem;
     letter-spacing: 1px;
-
-    color: rgba(225,225,225);
+    margin: 0;
+    color: rgb(255, 255, 255);
+    /* -webkit-text-stroke: 2px rgb(255, 255, 255);
+    color:transparent ; */
 
 }
 
 .text{
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.6em;
+    /* -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    color:transparent ; */
+    letter-spacing: 1px;
 
-    margin-bottom: 30px;
+    /* margin-bottom: 0px; */
     color: rgba(225,225,225);
+    padding-bottom: 20px;
 
 }
 
 a {
     text-decoration: none;
     color: rgba(225,225,225);
-    ;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 25px 10px 25px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+a:hover{
+    font-weight: 600;
+    background-color: rgba(225,225,225);
+    color: #000;
 }
 
 .background{
